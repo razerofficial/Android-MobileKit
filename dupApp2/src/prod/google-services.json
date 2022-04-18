@@ -1,0 +1,67 @@
+{
+  "project_info": {
+    "project_number": "171035621768",
+    "firebase_url": "https://razer-central.firebaseio.com",
+    "project_id": "razer-central",
+    "storage_bucket": "razer-central.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:171035621768:android:027414c158a9d9d6",
+        "android_client_info": {
+          "package_name": "com.razerzone.dupprod"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "171035621768-0bf1aa34fuujr0l86pls51s88avp9u10.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.razerzone.dupprod",
+            "certificate_hash": "666e4baa5a4a588d55ac61146821e3620910f770"
+          }
+        },
+        {
+          "client_id": "171035621768-nlvtlmqtcq4lpisg01k5o28jlh46cr0j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.razerzone.dupprod",
+            "certificate_hash": "eba709aa2bf5b8157c5869cae33ddf70d8a26ab9"
+          }
+        },
+        {
+          "client_id": "171035621768-7586jspb4onnmqbbg1nt1thcfb1ikb7h.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "171035621768-a1p1ce2b5qrjfsfq6hgk62t7ru9an12o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJuYypkm_jBCpWFxO8srm7QaLJKsnxPFg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "171035621768-7586jspb4onnmqbbg1nt1thcfb1ikb7h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

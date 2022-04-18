@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:layout_gravity="center_horizontal"
+  android:orientation="vertical">
+
+  <androidx.appcompat.widget.AppCompatTextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="20dp"
+    android:layout_marginTop="20dp"
+    android:text="Flow" />
+
+
+  <RadioGroup
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <androidx.appcompat.widget.AppCompatRadioButton
+      android:id="@+id/radioNative"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:checked="true"
+      android:text="Native" />
+
+    <androidx.appcompat.widget.AppCompatRadioButton
+      android:id="@+id/radioWebview"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+
+      android:checked="false"
+      android:text="Webview" />
+  </RadioGroup>
+
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:orientation="horizontal">
+
+    <androidx.appcompat.widget.AppCompatCheckBox
+      android:id="@+id/guestUsage"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+
+      android:checked="true"
+      android:text="Enable Guest Usage" />
+
+    <androidx.appcompat.widget.AppCompatCheckBox
+      android:id="@+id/goInDirectly"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:checked="false"
+      android:text="Go in to the App directly" />
+  </LinearLayout>
+
+
+  <androidx.appcompat.widget.AppCompatCheckBox
+    android:id="@+id/setLanding"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+
+    android:checked="true"
+    android:text="Set Landing (uncheck for Patricia project)" />
+
+
+  <androidx.appcompat.widget.AppCompatCheckBox
+    android:id="@+id/multipleAccount"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:checked="false"
+    android:text="Multiple account Support" />
+
+  <View
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:background="#333333" />
+
+  <androidx.appcompat.widget.AppCompatTextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="20dp"
+    android:text="Background(for Native flow)" />
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:orientation="horizontal">
+
+    <LinearLayout
+      android:layout_width="0dp"
+      android:layout_height="match_parent"
+      android:layout_weight="1"
+      android:orientation="vertical">
+
+      <androidx.appcompat.widget.AppCompatRadioButton
+        android:id="@+id/bgmp4"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:checked="true"
+        android:text="Background mp4" />
+
+      <androidx.appcompat.widget.AppCompatRadioButton
+        android:id="@+id/bgSlides"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Static images Slides" />
+    </LinearLayout>
+
+
+    <LinearLayout
+      android:layout_width="0dp"
+      android:layout_height="80dp"
+      android:layout_weight="1"
+      android:orientation="vertical">
+
+      <androidx.appcompat.widget.AppCompatCheckBox
+        android:id="@+id/parallax"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginLeft="10dp"
+        android:checked="true"
+        android:layout_weight="1"
+        android:text="Parallax mp4" />
+
+      <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/trasitiontime"
+        android:layout_width="400dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:enabled="false"
+        android:inputType="number"
+        android:maxLength="4"
+        android:text="1000" />
+    </LinearLayout>
+
+
+  </LinearLayout>
+
+
+  <View
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:background="#666666" />
+
+  <androidx.appcompat.widget.AppCompatTextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="20dp"
+    android:layout_marginTop="20dp"
+    android:text="Other config" />
+
+  <androidx.appcompat.widget.AppCompatCheckBox
+    android:id="@+id/isDarkTheme"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:checked="true"
+    android:text="isDarkTheme" />
+
+
+  <Button
+      android:id="@+id/launch"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content" android:textStyle="bold"
+      android:layout_gravity="center_horizontal"
+      android:text="launch" />
+
+  <com.razerzone.android.ui.components.CuxV2GreyButton14dp
+    android:id="@+id/test1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="20dp" android:visibility="gone"
+    app:text="test1"
+    app:textSize="25sp" />
+
+  <com.razerzone.android.ui.components.CuxV2AccentedButtonOverridable
+    android:id="@+id/test2"
+    android:layout_width="wrap_content" android:visibility="gone"
+    android:layout_height="wrap_content"
+    android:layout_margin="20dp"
+    app:text="test1"
+    app:textSize="25sp" />
+
+</LinearLayout>

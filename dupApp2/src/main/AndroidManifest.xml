@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.razerzone.dup">
+
+    <application
+        android:name=".DupApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/flavored_app_name"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        tools:replace="android:theme">
+
+        <meta-data
+            android:name="synapse_service_code"
+            android:value="0520" />
+        <meta-data
+            android:name="synapse_project_name"
+            android:value="test" />
+
+        <meta-data
+            android:name="synapse_app_id"
+            android:value="@string/flavored_synapse_client_id" />
+        <meta-data
+            android:name="synapse_scopes"
+            android:value="cop" />
+
+        <activity
+            android:name=".wxapi.WXEntryActivity"
+            android:enabled="true"
+            android:exported="true" />
+        <activity
+            android:name=".AppSplashActivity"
+            android:label="@string/flavored_app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/RazerSplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar.FullScreen" />
+        <activity
+            android:name=".DisplayActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar.FullScreen" />
+        <activity
+            android:name=".SampleProfileNavActivity" android:configChanges="locale"
+            android:theme="@style/cux_appTheme_transparentBackround" />
+        <activity
+            android:name=".SampleAccountActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/cux_AppTheme.NoActionBar"
+            android:windowSoftInputMode="adjustNothing" />
+
+        <activity android:name="com.razerzone.android.ui.activity.ActivityForceUpdateV2"
+            android:screenOrientation="portrait"/>
+
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="a9c70b7afcb0953d7e812aa8a8a1e9085e5847d6" />
+
+        <activity
+            android:name="com.facebook.CustomTabActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="@string/flavored_fb_scheme" />
+            </intent-filter>
+        </activity>
+        <provider
+            android:name="com.razerzone.android.ui.content_provider.RazerContentTokenProvider"
+            android:authorities="com.razerzone.android.ui.content_provider.RazerContentTokenProvider"
+            android:exported="true" />
+
+
+    </application>
+
+</manifest>

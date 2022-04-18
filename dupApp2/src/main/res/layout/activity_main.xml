@@ -1,0 +1,224 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:id="@+id/scrollParent"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="#80000000"
+  android:focusable="true"
+  android:focusableInTouchMode="true"
+  android:paddingLeft="@dimen/activity_horizontal_margin"
+  android:paddingTop="@dimen/activity_vertical_margin"
+  android:paddingRight="@dimen/activity_horizontal_margin"
+  android:paddingBottom="@dimen/activity_vertical_margin"
+  tools:context="com.razerzone.dup.MainActivity">
+
+  <requestFocus />
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="40dp"
+      android:orientation="horizontal">
+
+      <Button
+        android:id="@+id/btn_prof_info"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+
+        android:text="@string/label_sso_title" />
+
+      <Button
+        android:id="@+id/btn_forgot_pssd"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/label_forgot_passd" />
+    </LinearLayout>
+
+    <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal">
+
+      <Button
+        android:id="@+id/verify"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Verify email" />
+
+      <Button
+        android:id="@+id/getRemoteConfig"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="get Remote Config" />
+
+    </LinearLayout>
+
+    <LinearLayout
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal">
+
+      <EditText
+        android:id="@+id/featuresCount"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+
+        android:hint="number of feature"
+        android:inputType="number"
+        android:maxLength="1"
+        android:text="2" />
+
+      <Button
+        android:id="@+id/emailVerifyDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EmailVerify dialog" />
+
+    </LinearLayout>
+
+    <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal">
+
+      <Button
+        android:id="@+id/useToken"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:selectAllOnFocus="true"
+        android:text="useToken(not yet impl)" />
+
+      <Button
+        android:id="@+id/manualRefresh"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="manual Refresh" />
+
+      <Button
+        android:id="@+id/manualRefreshCop"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="manual refresh cop" />
+
+    </LinearLayout>
+
+    <LinearLayout
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:background="@drawable/cux_v2_bg_rec_round_3dp_dark_stroke"
+      android:orientation="horizontal">
+
+      <EditText
+        android:id="@+id/passDelete"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:hint="user password"
+        android:visibility="gone" />
+
+      <Button
+        android:id="@+id/getOtp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="get OTP token" />
+    </LinearLayout>
+
+    <Button
+      android:id="@+id/tos"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="tos upgrade" />
+
+    <Button
+      android:id="@+id/marketing"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="contact permission" />
+
+    <Button
+      android:id="@+id/faflMinVersion"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="FAFL minVersion" />
+
+    <Button
+      android:id="@+id/upgradeScreen"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="login /signup screen prompt" />
+
+    <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal">
+
+      <Button
+        android:id="@+id/btn_about_flow"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:layout_weight="1"
+        android:text="@string/label_go_to_about" />
+
+      <Button
+        android:id="@+id/btn_logout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:layout_weight="1"
+        android:text="@string/label_logout"
+        android:visibility="gone" />
+    </LinearLayout>
+
+    <Button
+      android:id="@+id/finger"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="fingerprint challenge" />
+
+    <Button
+        android:id="@+id/btn_app_migrate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="App Migration" />
+
+    <Button
+      android:id="@+id/webLoginPoc"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Web Login poc" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+      android:id="@+id/tv_login"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="40dp"
+      android:text="New Text" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+      android:id="@+id/token"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text=""
+      android:textIsSelectable="true" />
+
+  </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="flavored_app_name">手機套件生產</string>
+    <string name="flavored_synapse_client_id">4301b4d5af40259214dbf98e9fd1448baf36e8ed</string>
+    <string name="flavored_fb_id">317208161993931</string>
+    <string name="flavored_google_id">171035621768-a1p1ce2b5qrjfsfq6hgk62t7ru9an12o.apps.googleusercontent.com</string>
+    <string name="flavored_twitch_id">4j28c2znix5au9qzuy683wip0xksv5h</string>
+    <string name="flavored_qq_id">101325417</string>
+    <string name="flavored_qq_scheme_id">tencent101325417</string>
+</resources>

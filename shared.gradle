@@ -1,0 +1,26 @@
+
+String getRzrVersionName(int version_code) {
+    def int release_count;
+    release_count = version_code / 1000;
+    return '2.' + release_count + '.' + (version_code % 1000);
+}
+
+Integer getRzrVersionCode() {
+    def int version_code;
+    try {
+        version_code = Integer.parseInt(System.getenv("BUILD_NUMBER"));
+        if(version_code == null) {
+            version_code = 0;
+        }
+
+        return version_code;
+    }
+    catch(NumberFormatException e) {
+        return 0;
+    }
+}
+
+ext {
+    getRzrVersionName = this.&getRzrVersionName
+    getRzrVersionCode = this.&getRzrVersionCode
+}

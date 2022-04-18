@@ -1,0 +1,206 @@
+<resources>
+   <string name="cux_app_name">Mkit 2</string>
+    <string name="title_activity_main">Mkit 2</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="label_start_auth_flow">Start Authentication Flow</string>
+    <string name="label_login">Login</string>
+    <string name="label_logout">Logout</string>
+    <string name="label_sign_in">Sign In</string>
+    <string name="label_sso_title">Profile Info (Test)</string>
+    <string name="label_forgot_passd">Forgot Password</string>
+    <string name="label_start_auth_flow_no_skip">Start authentication flow (no skip)</string>
+    <string name="label_go_to_about">About</string>
+    <string name="cux_aws_analytics_app_id">0b12a1e10b293473ec209b96aa5d5743</string>
+    <string name="cux_sso_label_welcome_app">Welcome to CommonUx Demo2</string>
+    <string name="start_screen_with_video">Start screen with animated webp</string>
+    <string name="flavored_fb_id">444268682363510</string>
+    <string name="flavored_fb_scheme">@string/flavored_fb_id</string>
+
+
+    <!--
+            from chris
+    <string name="facebook_app_id">317208161993931</string>
+    <string name="fb_login_protocol_scheme">317208161993931</string> -->
+    <!-- from gertrude-->
+    <!-- razerid app 1403584813259834-->
+
+    <!--<string name="facebook_app_id">444268682363510</string> -->
+    <!--<string name="fb_login_protocol_scheme">@string/facebook_app_id</string> -->
+    <!-- my test client id
+
+    508362334491-g7rq833ed9r2igboerfigq8o3rtkf3d2.apps.googleusercontent.com
+
+    razer central creds
+    171035621768-82q3l5ajirg8iff8kcqkknk3plg62k1t.apps.googleusercontent.com
+
+    only working
+    171035621768-a1p1ce2b5qrjfsfq6hgk62t7ru9an12o.apps.googleusercontent.com
+
+    not working
+    548714357953-bjaeipo7s382npsaf9fpbe8jncp1tttu.apps.googleusercontent.com
+    -->
+
+    <!--<string name="twitchId">l1wr9o819ipfbjdmxum9jjlol507ejo</string> -->
+    <!--<string name="googleclientid">548714357953-bjaeipo7s382npsaf9fpbe8jncp1tttu.apps.googleusercontent.com</string> -->
+
+    <!--<string name="tencentID">101325417</string> -->
+
+
+    <string name="app_license">
+
+        <![CDATA[
+<!DOCTYPE html>
+<html lang="en">
+
+<div class="container">
+<h1>Theme Store Open Source Legal Notice</h1>
+
+<p>We rely on the following open source projects. You can find links to the source code for these open source projects along with license information below.</p>
+
+<h2>Dagger, version 2.x</h2>
+
+<p><a href="https://github.com/google/dagger">https://github.com/google/dagger</a></p>
+
+<p>Used under Apache License, Version 2</p>
+
+<p>Copyright &copy; 2012 The Dagger Authors</p>
+
+<p>Licensed under the Apache License, Version 2.0 (the "License"); you may not use this software except in compliance with the License. You may obtain a copy of the License at: <a href="http://www.apache.org/licenses/LICENSE-2.0">http://www.apache.org/licenses/LICENSE-2.0</a></p>
+
+<p>Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.</p>
+
+<h2>LeakCanary, version 1.5.4</h2>
+
+<p><a href="https://github.com/square/leakcanary">https://github.com/square/leakcanary</a></p>
+
+<p>Used under Apache License, Version 2</p>
+
+<p>Copyright &copy; 2015 Square, Inc.</p>
+
+<p>Licensed under the Apache License, Version 2.0 (the "License"); you may not use this software except in compliance with the License. You may obtain a copy of the License at: <a href="http://www.apache.org/licenses/LICENSE-2.0">http://www.apache.org/licenses/LICENSE-2.0</a></p>
+
+<p>Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.</p>
+
+<h2>Okhttp3, version 3.9</h2>
+
+<p><a href="https://github.com/square/okhttp">https://github.com/square/okhttp</a></p>
+
+<p>Used under Apache License, Version 2</p>
+
+<p>Copyright &copy; 2017 Square, Inc.</p>
+
+<p>Licensed under the Apache License, Version 2.0 (the "License"); you may not use this software except in compliance with the License. You may obtain a copy of the License at: <a href="http://www.apache.org/licenses/LICENSE-2.0">http://www.apache.org/licenses/LICENSE-2.0</a></p>
+
+<p>Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.</p>
+
+<h2>Picasso, version 2.5.2</h2>
+
+<p><a href="https://github.com/square/picasso">https://github.com/square/picasso</a></p>
+
+<p>Used under Apache License, Version 2</p>
+
+<p>Copyright &copy; 2013 Square, Inc.</p>
+
+<p>Licensed under the Apache License, Version 2.0 (the "License"); you may not use this software except in compliance with the License. You may obtain a copy of the License at: <a href="http://www.apache.org/licenses/LICENSE-2.0">http://www.apache.org/licenses/LICENSE-2.0</a></p>
+
+<p>Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.</p>
+
+<h2>Retrofit, version 2.3.0</h2>
+
+<p><a href="https://github.com/square/retrofit">https://github.com/square/retrofit</a></p>
+
+<p>Used under Apache License, Version 2</p>
+
+<p>Copyright &copy; 2013 Square, Inc.</p>
+
+<p>Licensed under the Apache License, Version 2.0 (the "License"); you may not use this software except in compliance with the License. You may obtain a copy of the License at:</p>
+
+<p>Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.</p>
+
+<h2>RxJava, version 2.3.0</h2>
+
+<p><a href="https://github.com/ReactiveX/RxJava">https://github.com/ReactiveX/RxJava</a></p>
+
+<p>Used under Apache License, Version 2</p>
+
+<p>Copyright &copy; 2016-present, RxJava Contributors.</p>
+
+<p>Licensed under the Apache License, Version 2.0 (the "License"); you may not use this software except in compliance with the License. You may obtain a copy of the License at: <a href="http://www.apache.org/licenses/LICENSE-2.0">http://www.apache.org/licenses/LICENSE-2.0</a></p>
+
+<p>Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.</p>
+
+<h2>Stetho, version 3.5.1</h2>
+
+<p><a href="https://github.com/facebook/stetho">https://github.com/facebook/stetho</a></p>
+
+<p>Licensed under the BSD-3 License, which is reproduced below and available at: <a href="https://opensource.org/licenses/BSD-3-Clause">https://opensource.org/licenses/BSD-3-Clause</a>.</p>
+
+<p>By downloading, copying, installing or using the software you agree to this license. If you do not agree to this license, do not download, install, copy or use the software.</p>
+
+<p>Copyright (c) 2015, Facebook, Inc. All rights reserved.</p>
+
+<h2>Segment, version 4.3.0</h2>
+
+<p><a href="https://github.com/segmentio/analytics-android">https://github.com/segmentio/analytics-android</a></p>
+
+<p>Used under the MIT License, which is reproduced below and available at: <a href="https://opensource.org/licenses/MIT">https://opensource.org/licenses/MIT</a></p>
+
+<p>Copyright (c) 2016 Segment, Inc.</p>
+
+<p>Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:</p>
+
+<p>The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.</p>
+
+<p>THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</p>
+
+<h2>Junit4</h2>
+
+<p><a href="https://github.com/junit-team/junit4">https://github.com/junit-team/junit4</a></p>
+
+<p>Used under Eclipse Public License, Version 1.0</p>
+
+<p>Copyright &copy; 2002-2016 JUnit</p>
+
+<p>All rights reserved. This program and the accompanying materials are made available under the terms of the Eclipse Public License v1.0 which accompanies this distribution, and is available at <a href="http://www.eclipse.org/legal/epl-v10.html">http://www.eclipse.org/legal/epl-v10.html</a>.</p>
+
+<h2>Mockito, version 2.x</h2>
+
+<p><a href="https://github.com/mockito/mockito">https://github.com/mockito/mockito</a></p>
+
+<p>Used under the MIT License, which is reproduced below and available at: <a href="https://opensource.org/licenses/MIT">https://opensource.org/licenses/MIT</a></p>
+
+<p>Copyright (c) 2007 Mockito contributors</p>
+
+<p>Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:</p>
+
+<p>The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.</p>
+
+<p>THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</p>
+
+<h2>Gson, version 2.8.2</h2>
+
+<p><a href="https://github.com/google/gson">https://github.com/google/gson</a></p>
+
+<p>Used under Apache License, Version 2</p>
+
+<p>Copyright 2008 Google Inc.</p>
+
+<p>Licensed under the Apache License, Version 2.0 (the "License"); you may not use this software except in compliance with the License. You may obtain a copy of the License at: <a href="http://www.apache.org/licenses/LICENSE-2.0">http://www.apache.org/licenses/LICENSE-2.0</a></p>
+
+<p>Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.</p>
+</div>
+
+</body>
+</html>
+
+]]>
+
+    </string>
+    <string name="web_login_poc">Weblogin POC</string>
+    <string name="one_sec_later">Added 1 sec later</string>
+ <string name="subtext">subtext</string>
+
+
+</resources>
