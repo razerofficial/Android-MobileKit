@@ -106,11 +106,11 @@ if you do not intend to show User profile, pass null to Profile and Account clas
 ```
 Native: Video Background With Parallax effect
 
-![Alt Text](https://rz-s3-mobileapp-assets-prod.s3.ap-southeast-1.amazonaws.com/mkit/parallax.gif)
+![Alt Text](https://rz-s3-mobileapp-assets-prod.s3.ap-southeast-1.amazonaws.com/mkit/parallax_small.gif)
 
 
 
 Webview:
 
-![Alt Text](https://rz-s3-mobileapp-assets-prod.s3.ap-southeast-1.amazonaws.com/mkit/wcri.gif)
+![Alt Text](https://rz-s3-mobileapp-assets-prod.s3.ap-southeast-1.amazonaws.com/mkit/wcri_small.gif)
 Refer  to AppSplashActivity.java for other ui configuration
