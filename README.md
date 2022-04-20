@@ -104,4 +104,8 @@ if you do not intend to show User profile, pass null to Profile and Account clas
     // options available: Static images background, Video Background, Parallax Video Background
     UiConfig.Builder(context).setWebViewLogin(false);  
 ```
+Native: Video Background With Parallax effect
+![Alt Text](https://rz-s3-mobileapp-assets-prod.s3.ap-southeast-1.amazonaws.com/mkit/parallax.gif)
+Webview:
+![Alt Text](https://rz-s3-mobileapp-assets-prod.s3.ap-southeast-1.amazonaws.com/mkit/wcri.gif)
 Refer  to AppSplashActivity.java for other ui configuration
