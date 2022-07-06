@@ -22,7 +22,7 @@ public class DupApp extends Application {
         super.onCreate();
         BaseAuthConfig authConfig = new BaseAuthConfig.Builder().
                 setIsStaging(isStaging).
-                /*setFacebookid(getString(R.string.flavored_fb_id)).*/
+                setFacebookid(getString(R.string.flavored_fb_id)).
                 setGoogleid(getString(R.string.flavored_google_id)).
                 setTwitchid(getString(R.string.flavored_twitch_id)).
                 build();

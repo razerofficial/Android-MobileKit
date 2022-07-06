@@ -15,10 +15,11 @@
     <string name="cux_aws_analytics_app_id">0b12a1e10b293473ec209b96aa5d5743</string>
     <string name="cux_sso_label_welcome_app">Welcome to CommonUx Demo2</string>
     <string name="start_screen_with_video">Start screen with animated webp</string>
-    <string name="flavored_fb_id">444268682363510</string>
+    <string name="flavored_fb_id">317208161993931</string>
     <string name="flavored_fb_scheme">@string/flavored_fb_id</string>
-
-
+    <string name="flavored_synapse_client_id">2d8d22905e74ade2a8db8cc79b988056672c7f28</string>
+    <string name="facebook_app_id">@string/flavored_fb_id</string>
+     <string name="facebook_client_token">46071a75e732b6f314cf7d7bf58cc676</string>
     <!--
             from chris
     <string name="facebook_app_id">317208161993931</string>
