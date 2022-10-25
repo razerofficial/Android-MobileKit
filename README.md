@@ -30,7 +30,7 @@ repositories {
  
 dependencies {
    ...
-       implementation "com.razer.android:ui:2.0.1"
+       implementation "com.razer.android:ui:2.0.125"
    ...
 }
 ```
